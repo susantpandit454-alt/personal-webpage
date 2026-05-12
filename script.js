@@ -60,3 +60,23 @@ function add(a, b) {
  } else {
     console.log("grade F");
  }
+
+ const skill = ["HTML","CSS","JAVA","GIT"];
+ console.log(skill[0]);
+ console.log(skill[1]);
+ console.log(skill[2]);
+
+ const skills = ["HTML","CSS","JAVA","GIT","react"];
+
+for (let i = 0; i < skills.length; i++) {
+console.log(skills[i]);
+}
+
+const numbers = [10,20,30,40,50];
+let total = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+    total = total + numbers[i];
+}
+
+console.log("total:" + total);
