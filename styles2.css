@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(92, 155, 211);
+    line-height: 1.6;
+}
+
+
+#heading {
+    background-color: #3d5a80;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+button {
+    padding: 6px;
+    color: brown;
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 20px;
+}
