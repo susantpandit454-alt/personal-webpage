@@ -80,3 +80,22 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 console.log("total:" + total);
+
+let car = {
+   horsepower: 1002,
+   model: "ferrari",
+   price: 100000,
+   start: function() {
+   console.log("vroom " + car.model + " is running.");
+   }
+}
+console.log(car.price.toLocaleString());
+console.log(car.model);
+
+car.price = 150000;
+console.log(car.price.toLocaleString());
+
+car.color = "red";
+console.log(car.color);
+
+car.start();
