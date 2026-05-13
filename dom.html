@@ -24,9 +24,13 @@
 
             let btn3 = document.getElementById("btn3");
             
-            btn3.addEventListener("click", function() {
+             btn3.addEventListener("click", function() {
+               if ( heading.style.color === "red") {
+               heading.style.color = "";
+             } else {
                 heading.style.color = "red";
-            })
+             }
+            });
         </script>
     </body>
 </html>
