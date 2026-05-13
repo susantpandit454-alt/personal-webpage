@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+    </head>
+    <body>
+        <h1 id="heading">what is the capital of Nepal?</h1>
+        <div>
+            <button id="btn">kathmandu</button>
+            <button id="btn2">pokhara</button>
+            <button id="btn3">chitwan</button>  
+            <button id="btn4">Reset</button>     
+        </div>
+        <script>
+            let heading = document.getElementById("heading");
+            let btn = document.getElementById("btn");
+            let btn2 = document.getElementById("btn2");
+            let btn3 = document.getElementById("btn3");
+            let btn4 = document.getElementById("btn4");
+
+            btn.addEventListener("click", function() {
+                heading.textContent = "correct";
+                heading.style.color = "green";
+                });
+
+            btn2.addEventListener("click",function() {
+             heading.textContent = "incorrect";
+             heading.style.color = "red";
+            });
+
+            btn3.addEventListener("click", function() {
+             heading.textContent = "incorrect";
+             heading.style.color = "red";
+            });
+
+            btn4.addEventListener("click", function() {
+                heading.textContent = "what is the capital of Nepal?";
+                heading.style.color = "";
+            });
+        </script>
+    </body>
+</html>

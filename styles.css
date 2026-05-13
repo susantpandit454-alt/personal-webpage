@@ -100,3 +100,11 @@ section h2 {
 .contact a {
     color: #a8d8ea;
 }
+
+.contact {
+    background-color: #3d5a80;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    padding: 60px 20px;
+}
